@@ -1,1 +1,1 @@
- https://stdmnstar.github.io/rsschool-cv/
+ https://stdmnstar.github.io/rsschool-cv/cv
