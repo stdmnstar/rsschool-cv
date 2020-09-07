@@ -1,3 +1,0 @@
-## Konstantin Agafonov
-
-### Contacts
