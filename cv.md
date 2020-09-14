@@ -2,7 +2,7 @@
 
 ### Contacts
 - __Email__: stdmnstar@gmail.com
-- __Tel__: +375 44 739 4747
+- __Tel__: +375 44 739 4847
 
 ### Summary
 I started programming early. Then I studied at a higher educational institution as a mathematician-programmer. However, it so happened that I had to graduate from another educational institution as a radio engineer. But over time, I moved on to work as an administrator of networks, servers. This is what I have been doing for the last 13 years. But I would like to really do programming.
