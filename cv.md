@@ -31,11 +31,11 @@ public class MainClass {
    }
 }
   ```
- ### Experience
+### Experience
 - course Java (2017)
 
 ### Education
 - Military Academy of the Republic of Belarus (radio engineer)
 
- ### English 
- level is A2
+### English 
+Level is A2
