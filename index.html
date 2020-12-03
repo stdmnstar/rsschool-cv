@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aliaksanr Tarhonski</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header >
+        <h2 class = "header-h2"> RS School </h2>
+    </header>
+
+    <main>
+        <img class="photo" src="image.jpg" alt="image" width="240" height="275">
+        <h1>Aliaksandr Tarhonski</h1>
+        <section>
+            <h2>Contacts</h2>
+            <ul>
+                <li><strong>Mobile</strong>: +375 (44) 7394847</li>
+                <li><strong>E-mail</strong>: stdmnstar@gmail.com</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Summary</h2>
+            <p>I started programming early. Then I studied at a higher educational institution 
+                as a mathematician-programmer. However, it so happened that I had to graduate 
+                from another educational institution as a radio engineer. But over time, 
+                I moved on to work as an administrator of networks, servers. This is what I 
+                have been doing for the last 13 years. But I would like to really do programming.</p>
+        </section>
+        <section>
+            <h2>Skills</h2>
+            <p>Java, MS SQL, PosgreSQL, MS Server, 1C…...</p>
+        </section>
+        <section>
+            <h2>Latest code example</h2>
+            <details open>
+                <summary>hide/show</summary>
+
+                <div class="code">
+
+                    <pre>
+                        <code>
+    public class MainClass {
+        public static void main(String[] args) {
+            int nDisks = 3;
+            doTowers(nDisks, 'A', 'B', 'C');
+        }
+
+        public static void doTowers(int topN, char from,
+        char inter, char to) {
+            if (topN == 1){
+                System.out.println("Disk 1 from "
+                   + from + " to " + to);
+            }else {
+                doTowers(topN - 1, from, to, inter);
+                System.out.println("Disk "
+                + topN + " from " + from + " to " + to);
+                doTowers(topN - 1, inter, from, to);
+            }
+        }
+    }      
+                        </code>
+                     </pre>
+
+                </div>
+            </details>
+        </section>
+        <section>
+            <h2>Experience</h2>
+            <ul>
+                <li>course Java (2017)</li>                
+            </ul>
+        </section>
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li>Military Academy of the Republic of Belarus (radio engineer)</li>                
+            </ul>
+        </section>
+        <section>
+            <h2>English</h2>
+            <p>Level is A2</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p class = "footer-p"><strong>E-mail</strong>: stdmnstar@gmail.com, <strong>mob.</strong>: +375 (44) 7394847</p>
+    </footer>
+</body>
+
+</html>
